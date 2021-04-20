@@ -3,6 +3,7 @@
 
 CMakeFiles/lab.dir/main.cpp.o: add.hpp
 CMakeFiles/lab.dir/main.cpp.o: base.hpp
+CMakeFiles/lab.dir/main.cpp.o: div.hpp
 CMakeFiles/lab.dir/main.cpp.o: main.cpp
 CMakeFiles/lab.dir/main.cpp.o: mult.hpp
 CMakeFiles/lab.dir/main.cpp.o: op.hpp

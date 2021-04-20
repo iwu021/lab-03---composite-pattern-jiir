@@ -11,7 +11,7 @@ TEST(AddTest, AddPos)
 	Op* second = new Op(7);
 	Add * test = new Add(first, second);
 	EXPECT_EQ(test->evaluate(),10);
-	EXPECT_EQ(test->stringify(), "(3.000000 + 7.000000)");
+	EXPECT_EQ(test->stringify(), "(3 + 7)");
 }
 
 TEST(AddTest, AddNeg)
@@ -20,7 +20,7 @@ TEST(AddTest, AddNeg)
         Op* second = new Op(-10);
         Add * test = new Add(first, second);
         EXPECT_EQ(test->evaluate(),-15);
-        EXPECT_EQ(test->stringify(), "(-5.000000 + -10.000000)");
+        EXPECT_EQ(test->stringify(), "(-5 + -10)");
 }
 
 TEST(AddTest, AddZero)
@@ -29,7 +29,7 @@ TEST(AddTest, AddZero)
         Op* second = new Op(0);
         Add * test = new Add(first, second);
         EXPECT_EQ(test->evaluate(),0);
-        EXPECT_EQ(test->stringify(), "(0.000000 + 0.000000)");
+        EXPECT_EQ(test->stringify(), "(0 + 0)");
 }
 
 #endif

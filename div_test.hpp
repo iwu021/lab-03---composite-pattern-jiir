@@ -19,7 +19,7 @@ TEST(DivTest, DivPosString)
         Op *first = new Op(10);
         Op *second = new Op(5);
         Div * test = new Div(first,second);
-        EXPECT_EQ(test->stringify(), "(10.000000 / 5.000000)");
+        EXPECT_EQ(test->stringify(), "(10 / 5)");
 }
 
 
@@ -43,7 +43,7 @@ TEST(DivTest, DivZeroString)
         Op *first = new Op(0);
         Op *second = new Op(2);
         Div *test = new Div(first,second);
-        EXPECT_EQ(test->stringify(), "(0.000000 / 2.000000)");
+        EXPECT_EQ(test->stringify(), "(0 / 2)");
 }
 
 #endif

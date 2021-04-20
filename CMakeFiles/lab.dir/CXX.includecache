@@ -14,6 +14,10 @@ base.hpp
 string
 -
 
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/div.hpp
+base.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/main.cpp
 iostream
 -
@@ -21,12 +25,14 @@ base.hpp
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
 op.hpp
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/op.hpp
+mult.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
+div.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/div.hpp
 add.hpp
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/add.hpp
 sub.hpp
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/sub.hpp
-mult.hpp
-/home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
 
 /home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
 op.hpp
