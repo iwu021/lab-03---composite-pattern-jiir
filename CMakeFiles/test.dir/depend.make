@@ -6,8 +6,14 @@ CMakeFiles/test.dir/unit_test.cpp.o: add_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: base.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: div.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: div_test.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: mult.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: mult_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op_test.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: pow.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: pow_test.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: rand.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: rand_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: sub.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: sub_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: unit_test.cpp

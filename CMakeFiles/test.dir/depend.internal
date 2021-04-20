@@ -7,8 +7,14 @@ CMakeFiles/test.dir/unit_test.cpp.o
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/div.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/div_test.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult_test.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/op.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/op_test.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/pow.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/pow_test.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/rand.hpp
+ /home/csmajs/iwu021/lab-03---composite-pattern-jiir/rand_test.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/sub.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/sub_test.hpp
  /home/csmajs/iwu021/lab-03---composite-pattern-jiir/unit_test.cpp
