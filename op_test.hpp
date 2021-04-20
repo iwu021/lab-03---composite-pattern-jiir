@@ -10,4 +10,5 @@ TEST(OpTest, OpEvaluateNonZero) {
     EXPECT_EQ(test->evaluate(), 8);
 }
 
+
 #endif //__OP_TEST_HPP__

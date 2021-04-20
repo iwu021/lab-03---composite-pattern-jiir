@@ -1,10 +1,16 @@
 #include <iostream>
 
 #include "base.hpp"
+<<<<<<< HEAD
 #include "op.hpp"
 #include "add.hpp"
 #include "sub.hpp"
 #include "mult.hpp"
+=======
+#include "mult.hpp"
+#include "op.hpp"
+
+>>>>>>> master
 int main() {
     // This is a very basic main, and being able to correctly execute this main
     // does not constitute a completed lab. Make sure you write unit tests for
