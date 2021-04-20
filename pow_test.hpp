@@ -2,7 +2,7 @@
 #define __POW_TEST_HPP__
 
 #include "gtest/gtest.h"
-#include "Pow.hpp"
+#include "pow.hpp"
 #include <string>
 using namespace std;
 
