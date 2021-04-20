@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/add.hpp
+base.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+string
+-
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/main.cpp
+iostream
+-
+base.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+op.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/op.hpp
+add.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/add.hpp
+sub.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/sub.hpp
+mult.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/mult.hpp
+op.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/op.hpp
+iostream
+-
+string
+-
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/op.hpp
+base.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/sub.hpp
+base.hpp
+/home/csmajs/iwu021/lab-03---composite-pattern-jiir/base.hpp
+
