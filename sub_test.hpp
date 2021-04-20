@@ -13,16 +13,16 @@ TEST(SubTest, SubPos)
 	EXPECT_EQ(test->stringify(), "(5.000000 - 3.000000)");
 }
 
-Test(SubTest, SubNeg)
+TEST(SubTest, SubNeg)
 {
         Op* first = new Op(-5);
         Op* second = new Op(-3);
         Sub* test = new Sub(first, second);
-        EXPECT_EQ(test->evaluate(), -7);
-        EXPECT_EQ(test->stringify(), "(-5.000000 -  -3.000000)");
+        EXPECT_EQ(test->evaluate(),-2);
+        EXPECT_EQ(test->stringify(), "(-5.000000 - -3.000000)");
 }
 
-Test(SubTest, SubZero)
+TEST(SubTest, SubZero)
 {
         Op* first = new Op(0);
         Op* second = new Op(0);

@@ -1,5 +1,5 @@
-#ifndef _ADD_TEST_HPP_
-#define _ADD_TEST_HPP_
+#ifndef __ADD_TEST_HPP__
+#define __ADD_TEST_HPP__
 
 #include "gtest/gtest.h"
 #include "add.hpp"
@@ -14,7 +14,7 @@ TEST(AddTest, AddPos)
 	EXPECT_EQ(test->stringify(), "(3.000000 + 7.000000)");
 }
 
-Test (AddTest, AddNeg)
+TEST(AddTest, AddNeg)
 {
         Op* first = new Op(-5);
         Op* second = new Op(-10);
