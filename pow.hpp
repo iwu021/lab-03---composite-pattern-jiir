@@ -4,10 +4,10 @@
 #include <math.h>
 #include "op.hpp"
 using namespace std; 
-class pow : public Base
+class Pow : public Base
 {
 	public: 
-		pow( Base* left, Base* right):Base()	
+		Pow( Base* left, Base* right):Base()	
 		{
 			lstring = left -> stringify();
 			rstring = right -> stringify();

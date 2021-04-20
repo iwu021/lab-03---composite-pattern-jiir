@@ -6,16 +6,17 @@
 #include <iostream>
 #include <stdlib.h>
 
-class rand : public Base {
+class Rand : public Base {
     private:
 	double num;
 	std::string str;
     public:
-	rand() : Base () {
+	Rand() : Base () {
 	num = rand() % 100;
 	str = std::to_string(num);
 	str.erase(str.find_last_not_of('0') + 1, std::string::npos);
 	str.erase(str.find_last_not_of('.') + 1, std::string::npos);
+       }
 	virtual double evaluate() { return num; }
 	virtual std::string stringify() { return str; }
 };
