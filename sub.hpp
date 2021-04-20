@@ -21,7 +21,7 @@ class Sub: public Base
 
                 std::string stringify()
                 {
-                        return "(" + left->stringify() + "-" + right->stringify()+ ")";
+                        return "(" + left->stringify() + " - " + right->stringify()+ ")";
                 }
 };
 #endif
